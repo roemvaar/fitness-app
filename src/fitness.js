@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View } from 'react-native';
 
 
-const HelloWorldApp = () => {
+const FitnessApp = () => {
   return (
     <View
       style={{
@@ -10,11 +10,10 @@ const HelloWorldApp = () => {
         justifyContent: "center",
         alignItems: "center"
     }}>
-    <Text>Hello, world!</Text>
-    <Text>This is my first ever React Native application</Text>
+    <Text>Fitness App</Text>
     </View>
   )
 }
 
-export default HelloWorldApp;
+export default FitnessApp;
  
